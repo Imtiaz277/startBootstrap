@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Bootstrap</title>
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Bootstrap Font Icon CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> -->
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/eb8b3cd471.js" crossorigin="anonymous"></script>
+
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+    
+    <!-- Navigation -->
+    <nav id="navbar-example2" class="navbar fixed-top navbar-expand-lg bg-custom-dark-blue">
+
+        <div class="container">
+
+            <a href="index.html" class="navbar-brand custom-navbar-brand">Start Bootstrap</a>
+            
+            <button class="navbar-toggler custom-navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <p class="custom-navbar-toggler-icon">Menu <i class="fa-solid fa-bars"></i></p>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="navbar-item custom-navbar-item">
+                        <a href="#portfolio" class="nav-link custom-navbar-link">Portfolio</a>
+                    </li>
+                    <li class="navbar-item custom-navbar-item">
+                        <a href="#about" class="nav-link custom-navbar-link">About</a>
+                    </li>
+                    <li class="navbar-item custom-navbar-item">
+                        <a href="#contact" class="nav-link custom-navbar-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+
+    </nav>
+
+    <!-- Header -->
+    <header id="portfolio" class="header-section bg-custom-green text-center">
+        <div class="container">
+            <img src="img/avataaars.svg" alt="Avatar Image" class="header-img mb-5">
+            <h1 class="header-title">Start Bootstrap</h1>
+            <div class="star-container star-container--1">
+                <hr>
+                <p><i class="fa-solid fa-star fa-2xl"></i></p>
+                <hr>
+            </div>
+            <p class="header-description">Graphic Artist - Web Designer - Illustrator</p>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <section class="portfolio-section">
+            <div class="container">
+                <h2 class="secondary-title secondary-title--2">PORTFOLIO</h2>
+                <div class="star-container star-container--2">
+                    <hr>
+                    <p><i class="fa-solid fa-star fa-2xl"></i></p>
+                    <hr>
+                </div>
+                
+                <div class="row g-0 g-5">
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="img-container" type="button" data-bs-toggle="modal" data-bs-target="#cabinModal">
+                            <img src="img/cabin.png" class="portfolio-img">
+                            <div class="overlay"><i class="fa-solid fa-plus fa-2xl"></i></div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="img-container" type="button" data-bs-toggle="modal" data-bs-target="#cake">
+                            <img src="img/cake.png" class="portfolio-img">
+                            <div class="overlay"><i class="fa-solid fa-plus fa-2xl"></i></div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="img-container" type="button" data-bs-toggle="modal" data-bs-target="#circus">
+                            <img src="img/circus.png" class="portfolio-img">
+                            <div class="overlay"><i class="fa-solid fa-plus fa-2xl"></i></div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="img-container" type="button" data-bs-toggle="modal" data-bs-target="#game">
+                            <img src="img/game.png" class="portfolio-img">
+                            <div class="overlay"><i class="fa-solid fa-plus fa-2xl"></i></div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="img-container" type="button" data-bs-toggle="modal" data-bs-target="#safe">
+                            <img src="img/safe.png" class="portfolio-img">
+                            <div class="overlay"><i class="fa-solid fa-plus fa-2xl"></i></div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="img-container" type="button" data-bs-toggle="modal" data-bs-target="#submarine">
+                            <img src="img/submarine.png" class="portfolio-img">
+                            <div class="overlay"><i class="fa-solid fa-plus fa-2xl"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Modals -->
+                <div class="modal fade" id="cabinModal" tabindex="-1">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0">
+                                <button type="button" class="btn-close custom-btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="secondary-title secondary-title--2">Log Cabin</h2>
+                                <div class="star-container star-container--2">
+                                    <hr>
+                                    <p><i class="fa-solid fa-star fa-2xl"></i></p>
+                                    <hr>
+                                </div>
+                                <div class="custom-container">
+                                    <img src="img/cabin.png" alt="cabin image" class="img-fluid mb-5">
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat illo voluptate minima molestiae libero officiis consequatur neque quia accusantium nesciunt? Libero architecto aut odit. Qui magnam eius neque distinctio quam.</p>
+                                    <button class="custom-btn mb-4" data-bs-dismiss="modal"><i class="fa-solid fa-x"></i> Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="cake" tabindex="-1">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0">
+                                <button type="button" class="btn-close custom-btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="secondary-title secondary-title--2">Tasty Cake</h2>
+                                <div class="star-container star-container--2">
+                                    <hr>
+                                    <p><i class="fa-solid fa-star fa-2xl"></i></p>
+                                    <hr>
+                                </div>
+                                <div class="custom-container">
+                                    <img src="img/cake.png" alt="cabin image" class="img-fluid mb-5">
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat illo voluptate minima molestiae libero officiis consequatur neque quia accusantium nesciunt? Libero architecto aut odit. Qui magnam eius neque distinctio quam.</p>
+                                    <button class="custom-btn mb-4" data-bs-dismiss="modal"><i class="fa-solid fa-x"></i> Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="circus" tabindex="-1">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0">
+                                <button type="button" class="btn-close custom-btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="secondary-title secondary-title--2">Circus Tent</h2>
+                                <div class="star-container star-container--2">
+                                    <hr>
+                                    <p><i class="fa-solid fa-star fa-2xl"></i></p>
+                                    <hr>
+                                </div>
+                                <div class="custom-container">
+                                    <img src="img/circus.png" alt="cabin image" class="img-fluid mb-5">
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat illo voluptate minima molestiae libero officiis consequatur neque quia accusantium nesciunt? Libero architecto aut odit. Qui magnam eius neque distinctio quam.</p>
+                                    <button class="custom-btn mb-4" data-bs-dismiss="modal"><i class="fa-solid fa-x"></i> Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="game" tabindex="-1">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0">
+                                <button type="button" class="btn-close custom-btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="secondary-title secondary-title--2">Controller</h2>
+                                <div class="star-container star-container--2">
+                                    <hr>
+                                    <p><i class="fa-solid fa-star fa-2xl"></i></p>
+                                    <hr>
+                                </div>
+                                <div class="custom-container">
+                                    <img src="img/game.png" alt="cabin image" class="img-fluid mb-5">
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat illo voluptate minima molestiae libero officiis consequatur neque quia accusantium nesciunt? Libero architecto aut odit. Qui magnam eius neque distinctio quam.</p>
+                                    <button class="custom-btn mb-4" data-bs-dismiss="modal"><i class="fa-solid fa-x"></i> Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="safe" tabindex="-1">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0">
+                                <button type="button" class="btn-close custom-btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="secondary-title secondary-title--2">Locked Safe</h2>
+                                <div class="star-container star-container--2">
+                                    <hr>
+                                    <p><i class="fa-solid fa-star fa-2xl"></i></p>
+                                    <hr>
+                                </div>
+                                <div class="custom-container">
+                                    <img src="img/safe.png" alt="cabin image" class="img-fluid mb-5">
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat illo voluptate minima molestiae libero officiis consequatur neque quia accusantium nesciunt? Libero architecto aut odit. Qui magnam eius neque distinctio quam.</p>
+                                    <button class="custom-btn mb-4" data-bs-dismiss="modal"><i class="fa-solid fa-x"></i> Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="submarine" tabindex="-1">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0">
+                                <button type="button" class="btn-close custom-btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="secondary-title secondary-title--2">Submarine</h2>
+                                <div class="star-container star-container--2">
+                                    <hr>
+                                    <p><i class="fa-solid fa-star fa-2xl"></i></p>
+                                    <hr>
+                                </div>
+                                <div class="custom-container">
+                                    <img src="img/submarine.png" alt="cabin image" class="img-fluid mb-5">
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat illo voluptate minima molestiae libero officiis consequatur neque quia accusantium nesciunt? Libero architecto aut odit. Qui magnam eius neque distinctio quam.</p>
+                                    <button class="custom-btn mb-4" data-bs-dismiss="modal"><i class="fa-solid fa-x"></i> Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="about" class="about-section bg-custom-green">
+            <div class="container">
+
+                <h2 class="secondary-title secondary-title--1">About</h2>
+                <div class="star-container star-container--1">
+                    <hr>
+                    <p><i class="fa-solid fa-star fa-2xl"></i></p>
+                    <hr>
+                </div>
+
+                <div class="about-container-description mb-4">
+                    <div class="row gy-4 gy-lg-0">
+                        <div class="col-12 col-lg-6">
+                            <p class="about-description">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <p class="about-description">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <button class="about-btn"><i class="fa-solid fa-download"></i> Free Download!</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+
+                <h2 class="secondary-title secondary-title--2">Contact</h2>
+                <div class="star-container star-container--2">
+                    <hr>
+                    <p><i class="fa-solid fa-star fa-2xl"></i></p>
+                    <hr>
+                </div>
+
+                <div class="contact-container">
+                    <form>
+                        <div class="input-group mb-5">
+                            <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+                            <input type="text" class="form-control form-control-lg" placeholder="Full Name">
+                        </div>
+    
+                        <div class="input-group mb-5">
+                            <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
+                            <input type="text" class="form-control form-control-lg" placeholder="Email">
+                        </div>
+    
+                        <div class="input-group mb-5">
+                            <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
+                            <input type="text" class="form-control form-control-lg" placeholder="Phone Number">
+                        </div>
+    
+                        <div class="input-group mb-5">
+                            <span class="input-group-text"><i class="fa-solid fa-message"></i></span>
+                            <textarea class="form-control form-control-lg" placeholder="Your Message"></textarea>
+                        </div>
+                        
+                        <button class="custom-contact-btn">Send</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <section class="footer-section bg-custom-dark-blue">
+            <div class="container">
+
+                <div class="row gy-5">
+                    <div class="col-12 col-lg-4 text-center">
+                        <h3 class="tertiary-heading mb-4">Location</h3>
+                        <p class="footer-description mb-2">2215 John Daniel Drive</p>
+                        <p class="footer-description mb-0">Clark, MO 65243Clark, MO 65243</p>
+                    </div>
+                    <div class="col-12 col-lg-4 text-center">
+                        <h3 class="tertiary-heading mb-4">AROUND THE WEB</h3>
+                        <div class="footer-social-icons">
+                            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                            <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                            <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 text-center">
+                        <h3 class="tertiary-heading mb-4">ABOUT FREELANCER</h3>
+                        <p class="footer-description mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by <a class="footer-description-highlight">Start Bootstrap</a>.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <section class="copyright-section bg-copyright">
+            <p class="copyright-description">Copyright &copy; <span id="year"></span> Your Website</p>
+        </section>
+    </footer>
+
+    <script>
+		// Get the current year for the copyright
+		document.getElementById("year").innerHTML = new Date().getFullYear();
+	</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+</body>
+</html>
